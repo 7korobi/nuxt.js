@@ -65,6 +65,11 @@
   },
   "dependencies": {
     "@nuxtjs/youch": "3.0.2",
+    "coffee-loader": "github:7korobi/coffee-loader#master",
+    "coffeescript": "next",
+    "markdown-loader": "7korobi/markdown-loader#vdom-201",
+    "pug": "latest",
+    "pug-html-loader": "latest",
     "ansi-html": "^0.0.7",
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.26.0",
@@ -156,8 +161,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-replace": "^1.1.1",
     "rollup-watch": "^4.3.1",
-    "std-mocks": "^1.0.1",
-    "uglify-js": "^3.0.27"
+    "std-mocks": "^1.0.1"
   },
   "collective": {
     "type": "opencollective",

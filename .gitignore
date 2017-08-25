@@ -10,7 +10,7 @@ examples/**/*/yarn.lock
 .cache
 
 # Dist folder
-dist
+test/fixtures/basic/dist
 
 # dist example generation
 examples/**/dist

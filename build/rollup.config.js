@@ -62,7 +62,7 @@ function genConfig (opts) {
     sourceMap: true,
     plugins: [
       rollupAlias(Object.assign({
-        resolve: ['.js', '.json', '.jsx', '.ts']
+        resolve: ['.js', '.json', '.jsx', '.ts', '.coffee']
       }, aliases, opts.alias)),
 
       rollupNodeResolve({ main: true, jsnext: true }),
