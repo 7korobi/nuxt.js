@@ -1,13 +1,14 @@
-<template>
-  <p>{{ name }}</p>
+<template lang="pug">
+p {{ name }}
 </template>
 
-<script>
-export default {
-  asyncData () {
-    return new Promise((resolve) => {
-      setTimeout(() => resolve({ name: 'Nuxt.js' }), 10)
-    })
-  }
-}
+<script lang="coffee">
+module.exports =
+  asyncData: ->
+    new Promise (resolve)=>
+      setTimeout =>
+        resolve name: 'Nuxt.js'
+        return
+      , 10
+      return
 </script>

@@ -9,7 +9,7 @@ examples/**/*/yarn.lock
 .nuxt
 
 # Dist folder
-dist
+test/fixtures/basic/dist
 
 # dist example generation
 examples/**/dist
