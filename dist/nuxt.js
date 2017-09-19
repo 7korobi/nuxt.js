@@ -358,13 +358,20 @@ module.exports = require("webpack");
         '~': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir),
         'static': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'static'), // use in template with <img src="~static/nuxt.png" />
         '~static': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'static'),
+        '~/static': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'static'),
         'assets': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'assets'), // use in template with <img src="~assets/nuxt.png" />
         '~assets': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'assets'),
+        '~/assets': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'assets'),
         '~plugins': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'plugins'),
+        '~/plugins': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'plugins'),
         '~store': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.buildDir, 'store'),
+        '~/store': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.buildDir, 'store'),
         '~router': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.buildDir, 'router'),
+        '~/router': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.buildDir, 'router'),
         '~pages': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'pages'),
-        '~components': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'components')
+        '~/pages': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'pages'),
+        '~components': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'components'),
+        '~/components': __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.srcDir, 'components')
       },
       modules: [__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2_path__["join"])(this.dir, 'node_modules'), nodeModulesDir]
     },

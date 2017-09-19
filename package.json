@@ -59,7 +59,7 @@
   "dependencies": {
     "@nuxtjs/youch": "3.0.1",
     "coffee-loader": "github:7korobi/coffee-loader#master",
-    "coffeescript": "next",
+    "coffeescript": "latest",
     "markdown-loader": "7korobi/markdown-loader#vdom-201",
     "marked": "7korobi/marked#vue-extra",
     "pug": "latest",
