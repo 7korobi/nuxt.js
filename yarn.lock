@@ -5911,6 +5911,10 @@ source-map@~0.2.0:
   dependencies:
     amdefine ">=0.0.4"
 
+source-map@~0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
+
 spawn-wrap@^1.3.8:
   version "1.3.8"
   resolved "https://registry.yarnpkg.com/spawn-wrap/-/spawn-wrap-1.3.8.tgz#fa2a79b990cbb0bb0018dca6748d88367b19ec31"
@@ -6298,7 +6302,7 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uglify-js@3.0.x, uglify-js@^3.0.28:
+uglify-js@3.0.x:
   version "3.0.28"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.0.28.tgz#96b8495f0272944787b5843a1679aa326640d5f7"
   dependencies:
@@ -6313,6 +6317,13 @@ uglify-js@^2.6, uglify-js@^2.8.29:
     yargs "~3.10.0"
   optionalDependencies:
     uglify-to-browserify "~1.0.0"
+
+uglify-js@^3.0.28:
+  version "3.1.4"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.1.4.tgz#8e1efa1244b207588e525c9c1835a33458b90aee"
+  dependencies:
+    commander "~2.11.0"
+    source-map "~0.6.1"
 
 uglify-to-browserify@~1.0.0:
   version "1.0.2"
@@ -6621,8 +6632,8 @@ webpack-sources@^1.0.1:
     source-map "~0.5.3"
 
 webpack@^3.5.5:
-  version "3.5.5"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.5.5.tgz#3226f09fc8b3e435ff781e7af34f82b68b26996c"
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.8.1.tgz#b16968a81100abe61608b0153c9159ef8bb2bd83"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"

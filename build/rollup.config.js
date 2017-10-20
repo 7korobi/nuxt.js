@@ -65,7 +65,7 @@ function genConfig (opts) {
     name: opts.modulename || 'Nuxt',
     plugins: [
       rollupAlias(Object.assign({
-        resolve: ['.js', '.json', '.jsx', '.ts']
+        resolve: ['.js', '.json', '.jsx', '.ts', '.coffee']
       }, aliases, opts.alias)),
 
       rollupNodeResolve({ preferBuiltins: true }),
